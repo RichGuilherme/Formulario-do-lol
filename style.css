@@ -4,6 +4,10 @@
     box-sizing: border-box;
     list-style: none;
 }
+@font-face{
+    font-family: "dungeon";
+    src: url("font/dungeon_sn/DUNGRG__.TTF") format("truetype");
+}
 body{
     height: 98vh;
     height: 100vh;
@@ -11,9 +15,10 @@ body{
     background-size: cover;
     background-repeat:no-repeat;
     background-image: url(/img/background2.png);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
 }
 
+/*botão de inicialização para aparece o formulário*/
 .loginInicial{
     display: flex;
     flex-direction: row;
@@ -23,17 +28,13 @@ body{
 	
 }
 
-@font-face{
-    font-family: "dungeon";
-    src: url("font/dungeon_sn/DUNGRG__.TTF") format("truetype");
-}
 .buttonInicial{
     font-family: "dungeon";
     height: 50px;
     width: 150px;
     font-size: 50px;
     border: none;
-    color: white;
+    color: #d3ab5c;
     background-color: rgba(255, 255, 255, 0);
     
 }
@@ -47,64 +48,94 @@ body{
               filter: blur(12px) opacity(0%);
     }
   }
+
 /*animação de incialização do primeiro botão */
 .animationButton{
 	    animation: text-blur-out 1.5s linear forwards;
 }
 
 
-/*Layout do formulário*/
+
 form{
     display: flex;
     justify-content: center;
     transform: translateY(12vh);
 }
+
+.logo_cabecario{
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+.riot_logo{
+    padding-left: 45px;
+     width: 190px;
+     fill: white;
+}
+
+/*Layout do formulário*/
 .content{
     outline: none;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 50px 40px 0 40px;
+    background-color: #20202023;
+    border-radius: 5px;
+    padding: 60px 40px 30px 40px;
 }
-.riot_logo{
-    padding-left: 45px;
-     width: 250px;
-     fill: white;
-}
-h1{
-    padding-bottom: 33px;
-    color: white;
+h1{ 
+    font-family: "FF Mark WO5", sans-serif;
+    padding-bottom: 60px;
+    color:  #d3ab5c;
+   
 }
 .campo{
      margin-top: 15px;
      
 }
-.nick, .password{
+.nick, .password_input{
     font-size: 18px;
+    text-align: start;
     width: 410px;
     height: 60px;
-    text-align: start;
-    border: none;
-    border-radius: 6px;
-    background-color: rgb(218, 218, 218);
+    border: 2px solid #d3ab5c;
+    border-right-style: none;
+    border-left-style: none;
+    border-top-style: none;
     padding-left: 10px;
+    padding-top: 30px;
+    background-color: rgba(238, 238, 238, 0);
+}
+::placeholder{
+    font-family: "FF Mark WO5", sans-serif;
+    color: white;
 }
 .check{
     position: relative;
     right: 150px;
     color: white;
+    accent-color: #d3ab5c;
 }
 
-.login{
-    padding: 30px;
+.login_button{
+    padding-top: 50px;
+    padding-bottom: 35px;
 }
 
-.submit {
-    height: 30px;
-    width: 100px;
+.login_submit {
+    font-size: 18px;
+    font-family: "FF Mark WO5", sans-serif;
+    height: 60px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2b2b2d;
+    color: white;
+    /*background: linear-gradient(180deg, #0dc4e4 40%, #1ccce4 80%);*/
 }
-
+h4{
+    color: white;
+}
 
 
 

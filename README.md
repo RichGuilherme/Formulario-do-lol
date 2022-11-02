@@ -14,6 +14,7 @@ projeto sendo executado:
 <p align="center">
   <img src="https://github.com/RichGuilherme/Login_do_league_of_legends/blob/main/assets/ezgif.com-gif-maker%20(5).gif" alt="Login do lol">
 </p>
+========================================================================================
 
 ## 🚀Tecnologias 
 

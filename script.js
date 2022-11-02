@@ -1,3 +1,5 @@
+let fomulario = document.querySelector(".content")
+
 function submit_fomulario() {
 const buttonInicial = document.querySelector(".buttonInicial")
 
@@ -7,18 +9,36 @@ const buttonInicial = document.querySelector(".buttonInicial")
         buttonInicial.setAttribute("hidden", "")
     }, 1000);
 
-
-    let fomulario = document.querySelector(".content")
-
-    setInterval(() => {
+    setTimeout(() => {
  
         fomulario.style.display = "flex"
         document.body.style = "backdrop-filter: blur(5px)"
+        
     }, 1500)
     
 }
 
-function submit(){}
+document.querySelector(".login_submit").onclick = function () {
+const password = document.querySelector(".password_input")
+const nick = document.querySelector(".nick")
 
 
-// x quando logar fazer o formulário ir para baixo
+if(nick.value.length < 3){
+    nick.style.borderColor = "red"
+ }
+  else if(password.value.length < 3){
+        nick.style.borderColor = "#d3ab5c"
+        password.style.borderColor = "red" 
+  }
+  else {
+     alert("Login concluido")
+  }
+
+}
+
+
+// window.location = "page/loading.html"
+
+// [ ] criar um função para análisar o formulário e returna algo, 
+// [ ] criar uma nova page que será postério ao efetuar login
+// [ ] criar arrow down nessa page

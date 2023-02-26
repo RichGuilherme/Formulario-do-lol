@@ -1,7 +1,9 @@
 # login do Lol (league of legends)
 #### projeto de login para aprendizado
-#### :warning: concluido
-----------------------------------------------------------------------------------------
+#### ✅ concluído
+
+========================================================================================
+
 ## Sobre
 O projeto é um formulário de login, aonde eu criei baseado no jogo league of legends. Apesar da pouca experiência, tentei criar algo visualmente agradável é que seguir-se as cores usada pela empresa no site do jogo.
 
@@ -14,7 +16,8 @@ projeto sendo executado:
 <p align="center">
   <img src="https://github.com/RichGuilherme/Login_do_league_of_legends/blob/main/assets/ezgif.com-gif-maker%20(5).gif" alt="Login do lol">
 </p>
-----------------------------------------------------------------------------------------
+
+========================================================================================
 
 ## 🚀Tecnologias 
 

@@ -21,7 +21,7 @@ projeto sendo executado:
 
 ## 🚀Tecnologias 
 
-* **JavaScprit**
+* **JavaScript**
 * **CSS**
 * **HTML**
 * **IDE VisualCode**
